@@ -9,4 +9,5 @@ An AI-driven platform that personalizes learning experiences by adapting to indi
 - [STAKEHOLDERS.md](STAKEHOLDERS.md)
 - [SYSTEM_REQUIREMENTS.md](SYSTEM_REQUIREMENTS.md)
 - [REFLECTION.md](REFLECTION.md)
+- [Use_Case_Diagram.md](Use_Case_Diagram.md)
 
