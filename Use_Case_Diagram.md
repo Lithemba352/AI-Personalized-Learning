@@ -1,4 +1,8 @@
 # Use Case Diagram
+##  In marmaid.js 
+![image](https://github.com/user-attachments/assets/c810efeb-ac2c-4f1c-9e5f-0099b2af80c1)
+
+Screenshot of the use case diagram
 ![image](https://github.com/user-attachments/assets/1e7d6fa4-e9a4-4678-b4a8-e0c55d84a987)
 # Actors and their Roles
 - **Student**:Enroll in Courses, access personalized content and track learning progress
