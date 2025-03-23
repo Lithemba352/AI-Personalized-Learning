@@ -14,3 +14,4 @@ An AI-driven platform that personalizes learning experiences by adapting to indi
 - [Use_Case_Specifications.md](Use_Case_Specifications.md)
 - [Reflection_Challenges.md](Reflection_Challenges.md)
 - [Agile_Planning_Document.md](Agile_Planning_Document.md)
+- [User_Story_Table.md](User_Story_Table.md)
