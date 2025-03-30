@@ -19,4 +19,4 @@ An AI-driven platform that personalizes learning experiences by adapting to indi
 - [Sprint_Plan.md](Sprint_Plan.md)
 - [template_analysis.md](template_analysis.md)
 - [kanban_creation.md](kanban_creation.md)
-- 
+- [kanban_explanation.md](kanban_explanation.md)
