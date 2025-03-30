@@ -17,3 +17,4 @@ An AI-driven platform that personalizes learning experiences by adapting to indi
 - [User_Story_Table.md](User_Story_Table.md)
 - [Product_Backlog.md](Product_Backlog.md)
 - [Sprint_Plan.md](Sprint_Plan.md)
+- [template_analysis.md](template_analysis.md)
