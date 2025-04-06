@@ -25,3 +25,108 @@ Once a user completes a course, they are prompted to provide feedback. If the fe
 
 8. **Subscription Renewal**: 
 The subscription renewal workflow notifies users of an impending subscription expiration and offers the option to renew. If the user renews, their access is updated. If not, they are informed of the cancellation and offered discounts. This ensures that users remain informed and have options to continue their learning experience without disruption.
+
+# Activity Diagram code 
+```
+flowchart TD
+
+  %% User Registration Workflow
+  subgraph User Registration
+    UR_Start([Start]) --> UR_EnterInfo[Enter User Information]
+    UR_EnterInfo --> UR_ValidateEmail[Validate Email]
+    UR_ValidateEmail -->|Email Valid| UR_StoreInfo[Store User Information]
+    UR_ValidateEmail -->|Email Invalid| UR_EmailError[Display Error Message]
+    UR_StoreInfo --> UR_VerifyEmail[Verify Email]
+    UR_VerifyEmail -->|Verified| UR_Activate[Activate Account]
+    UR_VerifyEmail -->|Not Verified| UR_SendVerification[Send Verification Email]
+    UR_Activate --> UR_End([End])
+    UR_SendVerification --> UR_End
+    UR_EmailError --> UR_End
+  end
+
+  %% Content Recommendation
+  subgraph Content Recommendation
+    CR_Start([Start]) --> CR_UserLogin[User logs in]
+    CR_UserLogin --> CR_CollectData[AI collects user preferences and behavior]
+    CR_CollectData --> CR_CheckData{Is there enough data for recommendation?}
+    CR_CheckData -->|Yes| CR_Generate[Generate recommendations]
+    CR_CheckData -->|No| CR_AskUser[Ask user to complete sample quiz]
+    CR_Generate --> CR_Display[Display recommendations]
+    CR_AskUser --> CR_Display
+    CR_Display --> CR_End([End])
+  end
+
+  %% Learning Progress Tracking
+  subgraph Learning Progress
+    LP_Start([Start]) --> LP_UserBegins[User begins a course]
+    LP_UserBegins --> LP_TrackProgress[System tracks progress]
+    LP_TrackProgress --> LP_CompleteSection{Is the course section completed?}
+    LP_CompleteSection -->|Yes| LP_MarkComplete[Mark section as complete]
+    LP_CompleteSection -->|No| LP_ContinueMonitoring[Continue monitoring]
+    LP_MarkComplete --> LP_UpdateProgress[Update user progress]
+    LP_ContinueMonitoring --> LP_UpdateProgress
+    LP_UpdateProgress --> LP_End([End])
+  end
+
+  %% Course Enrollment
+  subgraph Course Enrollment
+    CE_Start([Start]) --> CE_BrowseCourses[User browses courses]
+    CE_BrowseCourses --> CE_SelectCourse[User selects course to enroll]
+    CE_SelectCourse --> CE_EligibilityCheck{Is the user eligible for the course?}
+    CE_EligibilityCheck -->|Yes| CE_ConfirmEnrollment[Proceed to enrollment confirmation]
+    CE_EligibilityCheck -->|No| CE_ShowError[Show eligibility error]
+    CE_ConfirmEnrollment --> CE_GrantAccess[Confirm enrollment and grant access]
+    CE_ShowError --> CE_NotifyUser[Notify user of eligibility issue]
+    CE_GrantAccess --> CE_End([End])
+    CE_NotifyUser --> CE_End
+  end
+
+  %% Assessments and Quiz Submission
+  subgraph Assessments and Quiz Submission
+    AQ_Start([Start]) --> AQ_StartQuiz[User starts quiz]
+    AQ_StartQuiz --> AQ_AnswerQuestions[User answers questions]
+    AQ_AnswerQuestions --> AQ_MoreQuestions{Are there more questions?}
+    AQ_MoreQuestions -->|Yes| AQ_ContinueQuiz[Continue quiz]
+    AQ_MoreQuestions -->|No| AQ_SubmitQuiz[Submit quiz]
+    AQ_ContinueQuiz --> AQ_SubmitQuiz
+    AQ_SubmitQuiz --> AQ_AIGrading[AI grades quiz]
+    AQ_AIGrading --> AQ_UpdatePerformance[System updates performance record]
+    AQ_UpdatePerformance --> AQ_End([End])
+  end
+
+  %% AI-Based Performance Feedback
+  subgraph AI-Based Performance Feedback
+    APF_Start([Start]) --> APF_UserCompletes[User completes course]
+    APF_UserCompletes --> APF_AnalyzePerformance[AI analyzes performance]
+    APF_AnalyzePerformance --> APF_NeedImprovement{Does the user need improvement?}
+    APF_NeedImprovement -->|Yes| APF_SuggestImprovements[Suggest improvements and resources]
+    APF_NeedImprovement -->|No| APF_ConfirmCompletion[Confirm completion and achievements]
+    APF_SuggestImprovements --> APF_ProvideFeedback[Provide feedback]
+    APF_ConfirmCompletion --> APF_ProvideFeedback
+    APF_ProvideFeedback --> APF_End([End])
+  end
+
+  %% User Feedback and Course Rating
+  subgraph User Feedback and Course Rating
+    UFCR_Start([Start]) --> UFCR_RequestFeedback[Prompt user for feedback]
+    UFCR_RequestFeedback --> UFCR_ProvideFeedback{Does the user provide feedback?}
+    UFCR_ProvideFeedback -->|Yes| UFCR_RecordFeedback[Record feedback]
+    UFCR_ProvideFeedback -->|No| UFCR_RateReminder[Reminder to rate]
+    UFCR_RecordFeedback --> UFCR_UpdateRating[Update course rating]
+    UFCR_RateReminder --> UFCR_UpdateRating
+    UFCR_UpdateRating --> UFCR_End([End])
+  end
+
+  %% Subscription Renewal
+  subgraph Subscription Renewal
+    SR_Start([Start]) --> SR_CheckExpiration[Subscription nearing expiration]
+    SR_CheckExpiration --> SR_SendReminder[System sends renewal reminder]
+    SR_SendReminder --> SR_UserRenews{Does the user renew subscription?}
+    SR_UserRenews -->|Yes| SR_ProcessPayment[Process payment and update status]
+    SR_UserRenews -->|No| SR_DisplayCancellation[Display cancellation message and offer discounts]
+    SR_ProcessPayment --> SR_PaymentSuccess[Payment Success]
+    SR_PaymentSuccess --> SR_ActivateSubscription[Activate Subscription]
+    SR_DisplayCancellation --> SR_NotifyUser[Notify user of cancellation]
+    SR_ActivateSubscription --> SR_End([End])
+    SR_NotifyUser --> SR_End
+  end
