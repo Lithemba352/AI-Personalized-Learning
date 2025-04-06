@@ -23,3 +23,4 @@ An AI-driven platform that personalizes learning experiences by adapting to indi
 - [Reflection_on_kanboard_implementation.md](Reflection_on_kanboard_implementation.md)
 - [State_Transition_diagram.md](State_Transition_diagram.md)
 - [Activity_Diagrams.md](Activity_Diagrams.md)_
+- [Integration_with_Prior_Work.md](Integration_with_Prior_Work.md)
