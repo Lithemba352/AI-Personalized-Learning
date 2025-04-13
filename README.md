@@ -26,3 +26,4 @@ An AI-driven platform that personalizes learning experiences by adapting to indi
 - [Integration_with_Prior_Work.md](Integration_with_Prior_Work.md)
 - [xxxxx_reflection.md](xxxxx_reflection.md)
 - [Domain_Model.md](Domain_Model.md)
+- [Class_Diagram.md](Class_Diagram.md)
