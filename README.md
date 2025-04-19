@@ -3,6 +3,11 @@
 ## Description
 An AI-driven platform that personalizes learning experiences by adapting to individual student needs, tracking progress, and providing actionable insights.
 
+## Language and Design Decisions
+Java was selected for this project because it aligns well with object-oriented principles and offers robust support for implementing creational design patterns. I personally chose Java because I am more comfortable using it, which made it easier to focus on applying the patterns correctly.
+
+All six major creational patterns were applied using only the classes present in the UML Class Diagram, ensuring a clean, pattern-focused structure. The patterns were separated into individual packages under `creational_patterns/` for clarity and maintainability. Unit testing was done using JUnit 5, and validation was added to the builder pattern to avoid incomplete object construction.
+
 ## Links
 - [SPECIFICATION.md](./SPECIFICATION.md)
 - [ARCHITECTURE.md](./ARCHITECTURE.md)
@@ -28,3 +33,4 @@ An AI-driven platform that personalizes learning experiences by adapting to indi
 - [Domain_Model.md](Domain_Model.md)
 - [Class_Diagram.md](Class_Diagram.md)
 - [Domain_Modeling_and_Class_Reflection.md](Domain_Modeling_and_Class_Reflection.md)
+- [CHANGELOG.md](CHANGELOG.md)
