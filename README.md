@@ -34,3 +34,4 @@ All six major creational patterns were applied using only the classes present in
 - [Class_Diagram.md](Class_Diagram.md)
 - [Domain_Modeling_and_Class_Reflection.md](Domain_Modeling_and_Class_Reflection.md)
 - [CHANGELOG.md](CHANGELOG.md)
+- [CoverageReport.md](CoverageReport.md)
