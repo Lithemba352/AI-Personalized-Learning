@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d7c0366-ea73-456e-ab43-5404329138c2" name="Changes" comment="git reset --soft HEAD~1" />
+    <list default="true" id="3d7c0366-ea73-456e-ab43-5404329138c2" name="Changes" comment="implemented creational patterns" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +47,7 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.All in AI_Personalised_Learning.executor": "Run",
+    "JUnit.All in AI_Personalised_Learning.executor": "Coverage",
     "JUnit.CourseFactoryTest.executor": "Run",
     "JUnit.CourseFactoryTest.testCourseCreation.executor": "Run",
     "JUnit.EnrollmentBuilderTest.executor": "Run",
@@ -156,7 +156,7 @@
       <updated>1744838796653</updated>
       <workItem from="1744838797581" duration="628000" />
       <workItem from="1744973877891" duration="11264000" />
-      <workItem from="1745096307920" duration="10803000" />
+      <workItem from="1745096307920" duration="11124000" />
     </task>
     <task id="LOCAL-00001" summary="aaaded">
       <option name="closed" value="true" />
@@ -206,7 +206,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745173897501</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="implemented creational patterns">
+      <option name="closed" value="true" />
+      <created>1745174581142</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1745174581142</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,7 +262,8 @@
     <MESSAGE value="&quot;Implement: Enrollment builder validation and test cases (#9)&quot;" />
     <MESSAGE value="Implemented the six creational patterns" />
     <MESSAGE value="git reset --soft HEAD~1" />
-    <option name="LAST_COMMIT_MESSAGE" value="git reset --soft HEAD~1" />
+    <MESSAGE value="implemented creational patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="implemented creational patterns" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -268,6 +277,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AI_Personalised_Learning$All_in_AI_Personalised_Learning.ic" NAME="All in AI_Personalised_Learning Coverage Results" MODIFIED="1745174299604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/AI_Personalised_Learning$UserFactoryTest.ic" NAME="UserFactoryTest Coverage Results" MODIFIED="1745173563849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>
