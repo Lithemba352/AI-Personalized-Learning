@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3d7c0366-ea73-456e-ab43-5404329138c2" name="Changes" comment="git reset --soft HEAD~1" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Lithemba352&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Lithemba352/AI-Personalized-Learning&quot;,
+    &quot;accountId&quot;: &quot;93cea186-28d7-4085-a7a4-1f4f7297f09f&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2vpOxNWtWvytXYrJCKUtCOPgSs8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.All in AI_Personalised_Learning.executor": "Run",
+    "JUnit.CourseFactoryTest.executor": "Run",
+    "JUnit.CourseFactoryTest.testCourseCreation.executor": "Run",
+    "JUnit.EnrollmentBuilderTest.executor": "Run",
+    "JUnit.EnrollmentBuilderTest.testValidEnrollmentBuild.executor": "Run",
+    "JUnit.LearningProgressTest.executor": "Run",
+    "JUnit.RecommendationTest.executor": "Run",
+    "JUnit.ReportFactoryTest.executor": "Run",
+    "JUnit.UserFactoryTest.executor": "Coverage",
+    "JUnit.UserFactoryTest.testUserCreation.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/Lithe/IdeaProjects/New folder/AI_Personalised_Learning",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Lithe/IdeaProjects/New folder/AI_Personalised_Learning/src/main/java/org/example/Main.java",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lithe\IdeaProjects\New folder\AI_Personalised_Learning" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.All in AI_Personalised_Learning">
+    <configuration name="All in AI_Personalised_Learning" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AI_Personalised_Learning" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnrollmentBuilderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AI_Personalised_Learning" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EnrollmentBuilderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnrollmentBuilderTest.testValidEnrollmentBuild" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AI_Personalised_Learning" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EnrollmentBuilderTest" />
+      <option name="METHOD_NAME" value="testValidEnrollmentBuild" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RecommendationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AI_Personalised_Learning" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RecommendationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AI_Personalised_Learning" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="UserFactoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.All in AI_Personalised_Learning" />
+        <item itemvalue="JUnit.EnrollmentBuilderTest" />
+        <item itemvalue="JUnit.UserFactoryTest" />
+        <item itemvalue="JUnit.EnrollmentBuilderTest.testValidEnrollmentBuild" />
+        <item itemvalue="JUnit.RecommendationTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
+        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d7c0366-ea73-456e-ab43-5404329138c2" name="Changes" comment="" />
+      <created>1744838796653</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744838796653</updated>
+      <workItem from="1744838797581" duration="628000" />
+      <workItem from="1744973877891" duration="11264000" />
+      <workItem from="1745096307920" duration="10803000" />
+    </task>
+    <task id="LOCAL-00001" summary="aaaded">
+      <option name="closed" value="true" />
+      <created>1744839376404</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744839376404</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Implemented all six patterns including their unit tests">
+      <option name="closed" value="true" />
+      <created>1745171205813</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745171205813</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&quot;Implement: Enrollment builder validation and test cases (#9)&quot;">
+      <option name="closed" value="true" />
+      <created>1745171941327</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1745171941327</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Implemented the six creational patterns">
+      <option name="closed" value="true" />
+      <created>1745172549570</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1745172549570</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Implemented the six creational patterns">
+      <option name="closed" value="true" />
+      <created>1745172632025</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1745172632025</updated>
+    </task>
+    <task id="LOCAL-00006" summary="git reset --soft HEAD~1">
+      <option name="closed" value="true" />
+      <created>1745173897501</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1745173897501</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="867f80d5-dea0-4d82-9bb3-68d9d2194200" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="867f80d5-dea0-4d82-9bb3-68d9d2194200">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="aaaded" />
+    <MESSAGE value="Implemented all six patterns including their unit tests" />
+    <MESSAGE value="&quot;Implement: Enrollment builder validation and test cases (#9)&quot;" />
+    <MESSAGE value="Implemented the six creational patterns" />
+    <MESSAGE value="git reset --soft HEAD~1" />
+    <option name="LAST_COMMIT_MESSAGE" value="git reset --soft HEAD~1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/creational_patterns/factorymethod/ConcreteCourseFactory.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/AI_Personalised_Learning$UserFactoryTest.ic" NAME="UserFactoryTest Coverage Results" MODIFIED="1745173563849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+  </component>
+</project>
