@@ -24,12 +24,11 @@ public class EnrollmentBuilderTest {
         assertNotNull(enrollment);
     }
 
+
     @Test
-    public void testMissingFields() {
-        // Optional: If you add validation, then you could expect an exception.
-        // For now, just checking that build() returns a non-null object even if fields are missing.
-        Enrollment enrollment = new Enrollment.Builder().build();
-        System.out.println("Enrollment created with missing fields: " + enrollment);
-        assertNotNull(enrollment);
+    public void testMissingFieldsThrowsException() {
+        assertThrows(IllegalStateException.class, () -> {
+            new Enrollment.Builder().build();
+        });
     }
 }

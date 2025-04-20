@@ -50,7 +50,12 @@ public class Enrollment {
         }
 
         public Enrollment build() {
+            if (userId == null || courseId == null || status == null) {
+                throw new IllegalStateException("Missing required fields for Enrollment");
+            }
+
             return new Enrollment(this);
+
         }
     }
 }
