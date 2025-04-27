@@ -17,9 +17,9 @@
 
 These design choices ensure the system is extensible, user-friendly, and aligned with the needs of personalized education.
 
-
 ```mermaid
 classDiagram
+    %% Entity Classes
     class User {
         +String userId
         +String name
@@ -79,7 +79,39 @@ classDiagram
         +viewRecommendation()
     }
 
-    %% Relationships
+    %% Repository Interfaces
+    class Repository~T, ID~ {
+        +save(T entity)
+        +findById(ID id)
+        +findAll()
+        +deleteById(ID id)
+    }
+
+    class UserRepository
+    class CourseRepository
+    class EnrollmentRepository
+    class LearningProgressRepository
+    class ReportRepository
+    class RecommendationRepository
+
+    %% Repository Implementations
+    class InMemoryUserRepository
+    class InMemoryCourseRepository
+    class InMemoryEnrollmentRepository
+    class InMemoryLearningProgressRepository
+    class InMemoryReportRepository
+    class InMemoryRecommendationRepository
+
+    class FileSystemUserRepository
+    class FileSystemCourseRepository
+    class FileSystemEnrollmentRepository
+    class FileSystemLearningProgressRepository
+    class FileSystemReportRepository
+    class FileSystemRecommendationRepository
+
+    class DatabaseCourseRepository
+
+    %% Relationships - Domain Models
     User "1" --> "many" Enrollment
     User "1" --> "many" Report
     User "1" --> "many" Recommendation
@@ -88,3 +120,30 @@ classDiagram
     Course "1" --> "many" LearningProgress
 
     Enrollment "1" --> "1" LearningProgress
+
+    %% Relationships - Repositories
+    Repository <|-- UserRepository
+    Repository <|-- CourseRepository
+    Repository <|-- EnrollmentRepository
+    Repository <|-- LearningProgressRepository
+    Repository <|-- ReportRepository
+    Repository <|-- RecommendationRepository
+
+    UserRepository <|-- InMemoryUserRepository
+    UserRepository <|-- FileSystemUserRepository
+
+    CourseRepository <|-- InMemoryCourseRepository
+    CourseRepository <|-- FileSystemCourseRepository
+    CourseRepository <|-- DatabaseCourseRepository
+
+    EnrollmentRepository <|-- InMemoryEnrollmentRepository
+    EnrollmentRepository <|-- FileSystemEnrollmentRepository
+
+    LearningProgressRepository <|-- InMemoryLearningProgressRepository
+    LearningProgressRepository <|-- FileSystemLearningProgressRepository
+
+    ReportRepository <|-- InMemoryReportRepository
+    ReportRepository <|-- FileSystemReportRepository
+
+    RecommendationRepository <|-- InMemoryRecommendationRepository
+    RecommendationRepository <|-- FileSystemRecommendationRepository
