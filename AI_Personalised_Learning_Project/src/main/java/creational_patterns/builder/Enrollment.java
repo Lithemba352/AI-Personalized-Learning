@@ -17,6 +17,10 @@ public class Enrollment {
         this.enrolledDate = builder.enrolledDate;
     }
 
+    public String getEnrollmentId() {
+        return enrollmentId;
+    }
+
     public static class Builder {
         private String enrollmentId;
         private String userId;

@@ -15,6 +15,10 @@ public class Report {
         this.status = "Created";
     }
 
+    public String getReportId() {
+        return reportId;
+    }
+
     public void generateReport() {
         System.out.println("Generating report for user: " + userId);
     }
