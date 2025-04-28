@@ -21,6 +21,10 @@ The Factory pattern was selected because:
 
 In larger, enterprise systems, a full DI framework (e.g., Spring) would be more appropriate, but for this project scope, a Factory offers clean, sufficient abstraction.
 
+## Justification of generic repository interface
+### Why use a generic a generic Repository interface
+I created a reusable interface for basic CRUD (create, read, update, delete) operations. This interface makes it easier to work with different data types and test without relying on a specific database.
+
 
 ## Links
 - [SPECIFICATION.md](./SPECIFICATION.md)
