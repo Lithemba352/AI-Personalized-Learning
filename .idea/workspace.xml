@@ -4,39 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d7c0366-ea73-456e-ab43-5404329138c2" name="Changes" comment="removed">
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/repository/CourseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/repository/EnrollmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/repository/LearningProgressRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/repository/RecommendationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/repository/ReportRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/repository/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/repository/RepositoryFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/repository/StorageType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/repository/database/DatabaseCourseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/repository/factories/RepositoryFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/repository/filesystem/FileSystemCourseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/repository/filesystem/FileSystemEnrollmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/repository/filesystem/FileSystemLearningProgressRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/repository/filesystem/FileSystemRecommendationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/repository/filesystem/FileSystemReportRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/repository/filesystem/FileSystemUserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/repository/inmemory/InMemoryCourseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/repository/inmemory/InMemoryEnrollmentRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/repository/inmemory/InMemoryLearningProgressRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/repository/inmemory/InMemoryRecommendationRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/repository/inmemory/InMemoryReportRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/repository/inmemory/InMemoryUserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/test/java/InMemoryRepositoryTests/InMemoryCourseRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/test/java/InMemoryRepositoryTests/InMemoryEnrollmentRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/test/java/InMemoryRepositoryTests/InMemoryLearningProgressRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/test/java/InMemoryRepositoryTests/InMemoryRecommendationRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/test/java/InMemoryRepositoryTests/InMemoryReportRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/test/java/InMemoryRepositoryTests/InMemoryUserRepositoryTest.java" afterDir="false" />
+    <list default="true" id="3d7c0366-ea73-456e-ab43-5404329138c2" name="Changes" comment="Implemented the persistence repository layer">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/api/CourseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/api/EnrollmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/api/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/services/CourseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/services/EnrollmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/test/java/services/CourseServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/test/java/services/EnrollmentServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/test/java/services/UserServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI_Personalised_Learning_Project/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/creational_patterns/builder/Enrollment.java" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/creational_patterns/builder/Enrollment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/creational_patterns/simplefactory/Report.java" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/creational_patterns/simplefactory/Report.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/creational_patterns/factorymethod/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/creational_patterns/factorymethod/Course.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/repository/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/repository/CourseRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +31,8 @@
       <list>
         <option value="Interface" />
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -55,7 +40,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -77,108 +61,95 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.All in AI_Personalised_Learning.executor": "Coverage",
-    "JUnit.CourseFactoryTest.executor": "Run",
-    "JUnit.CourseFactoryTest.testCourseCreation.executor": "Run",
-    "JUnit.EnrollmentBuilderTest.executor": "Run",
-    "JUnit.EnrollmentBuilderTest.testValidEnrollmentBuild.executor": "Run",
-    "JUnit.InMemoryCourseRepositoryTest.executor": "Run",
-    "JUnit.InMemoryEnrollmentRepositoryTest.executor": "Run",
-    "JUnit.InMemoryLearningProgressRepositoryTest.executor": "Run",
-    "JUnit.InMemoryRecommendationRepositoryTest.executor": "Run",
-    "JUnit.InMemoryReportRepositoryTest.executor": "Run",
-    "JUnit.InMemoryUserRepositoryTest.executor": "Run",
-    "JUnit.LearningProgressTest.executor": "Run",
-    "JUnit.RecommendationTest.executor": "Run",
-    "JUnit.ReportFactoryTest.executor": "Run",
-    "JUnit.UserFactoryTest.executor": "Coverage",
-    "JUnit.UserFactoryTest.testUserCreation.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "junie.onboarding.icon.badge.shown": "true",
-    "last_opened_file_path": "C:/Users/Lithe/IdeaProjects/New folder/AI_Personalised_Learning",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Lithe/IdeaProjects/New folder/AI_Personalised_Learning/src/main/java/org/example/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.All in AI_Personalised_Learning.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.CourseFactoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CourseFactoryTest.testCourseCreation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.CourseServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EnrollmentBuilderTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EnrollmentBuilderTest.testValidEnrollmentBuild.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.EnrollmentServiceTest.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.InMemoryCourseRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InMemoryEnrollmentRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InMemoryLearningProgressRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InMemoryRecommendationRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InMemoryReportRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.InMemoryUserRepositoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.LearningProgressTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.RecommendationTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReportFactoryTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserFactoryTest.executor&quot;: &quot;Coverage&quot;,
+    &quot;JUnit.UserFactoryTest.testUserCreation.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.testUpdateProfile_SuccessfulUpdate.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lithe/IdeaProjects/New folder/AI_Personalised_Learning&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Lithe/IdeaProjects/New folder/AI_Personalised_Learning/src/main/java/org/example/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="api" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Lithe\IdeaProjects\New folder\AI_Personalised_Learning" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="services" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.InMemoryReportRepositoryTest">
-    <configuration name="InMemoryCourseRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserServiceTest.testUpdateProfile_SuccessfulUpdate">
+    <configuration name="CourseServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AI_Personalised_Learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InMemoryRepositoryTests.*" />
+          <option name="PATTERN" value="services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="InMemoryRepositoryTests" />
-      <option name="MAIN_CLASS_NAME" value="InMemoryRepositoryTests.InMemoryCourseRepositoryTest" />
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.CourseServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InMemoryEnrollmentRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EnrollmentServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AI_Personalised_Learning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="InMemoryRepositoryTests.*" />
+          <option name="PATTERN" value="services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="InMemoryRepositoryTests" />
-      <option name="MAIN_CLASS_NAME" value="InMemoryRepositoryTests.InMemoryEnrollmentRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InMemoryLearningProgressRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AI_Personalised_Learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InMemoryRepositoryTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="InMemoryRepositoryTests" />
-      <option name="MAIN_CLASS_NAME" value="InMemoryRepositoryTests.InMemoryLearningProgressRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InMemoryRecommendationRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AI_Personalised_Learning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="InMemoryRepositoryTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="InMemoryRepositoryTests" />
-      <option name="MAIN_CLASS_NAME" value="InMemoryRepositoryTests.InMemoryRecommendationRepositoryTest" />
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.EnrollmentServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -199,13 +170,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AI_Personalised_Learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.UserServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceTest.testUpdateProfile_SuccessfulUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AI_Personalised_Learning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.UserServiceTest" />
+      <option name="METHOD_NAME" value="testUpdateProfile_SuccessfulUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserServiceTest.testUpdateProfile_SuccessfulUpdate" />
+        <item itemvalue="JUnit.UserServiceTest" />
+        <item itemvalue="JUnit.EnrollmentServiceTest" />
+        <item itemvalue="JUnit.CourseServiceTest" />
         <item itemvalue="JUnit.InMemoryReportRepositoryTest" />
-        <item itemvalue="JUnit.InMemoryRecommendationRepositoryTest" />
-        <item itemvalue="JUnit.InMemoryLearningProgressRepositoryTest" />
-        <item itemvalue="JUnit.InMemoryEnrollmentRepositoryTest" />
-        <item itemvalue="JUnit.InMemoryCourseRepositoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +229,10 @@
       <workItem from="1744838797581" duration="628000" />
       <workItem from="1744973877891" duration="11264000" />
       <workItem from="1745096307920" duration="11771000" />
-      <workItem from="1745609436112" duration="13926000" />
+      <workItem from="1745609436112" duration="14289000" />
+      <workItem from="1746224399474" duration="13904000" />
+      <workItem from="1746313654966" duration="188000" />
+      <workItem from="1746313876462" duration="1821000" />
     </task>
     <task id="LOCAL-00001" summary="aaaded">
       <option name="closed" value="true" />
@@ -293,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745174640036</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Implemented the persistence repository layer">
+      <option name="closed" value="true" />
+      <created>1745796887951</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1745796887951</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +356,8 @@
     <MESSAGE value="git reset --soft HEAD~1" />
     <MESSAGE value="implemented creational patterns" />
     <MESSAGE value="removed" />
-    <option name="LAST_COMMIT_MESSAGE" value="removed" />
+    <MESSAGE value="Implemented the persistence repository layer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented the persistence repository layer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

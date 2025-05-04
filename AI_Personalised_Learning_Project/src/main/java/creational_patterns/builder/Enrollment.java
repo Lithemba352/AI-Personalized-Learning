@@ -21,6 +21,22 @@ public class Enrollment {
         return enrollmentId;
     }
 
+    public String getCourseId() {
+        return courseId;
+    }
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public Date getEnrolledDate() {
+        return enrolledDate;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
     public static class Builder {
         private String enrollmentId;
         private String userId;

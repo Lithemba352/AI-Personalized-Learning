@@ -20,6 +20,10 @@ public class Course {
         System.out.println("Course '" + title + "' has been published.");
     }
 
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
     public String getCourseId() {
         return courseId;
     }
