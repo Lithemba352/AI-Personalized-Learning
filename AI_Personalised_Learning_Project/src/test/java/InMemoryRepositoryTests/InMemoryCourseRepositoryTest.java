@@ -1,7 +1,7 @@
 package InMemoryRepositoryTests;
 
-import repository.inmemory.InMemoryCourseRepository;
-import creational_patterns.factorymethod.Course;
+import aipersonalisedlearning.repository.inmemory.InMemoryCourseRepository;
+import aipersonalisedlearning.creational_patterns.factorymethod.Course;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

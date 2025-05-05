@@ -5,26 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d7c0366-ea73-456e-ab43-5404329138c2" name="Changes" comment="Implemented the persistence repository layer">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/api/CourseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/api/EnrollmentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/api/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/services/CourseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/services/EnrollmentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/services/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/test/java/services/CourseServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/test/java/services/EnrollmentServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/test/java/services/UserServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AI_Personalised_Learning_Project/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/creational_patterns/builder/Enrollment.java" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/creational_patterns/builder/Enrollment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/creational_patterns/factorymethod/Course.java" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/creational_patterns/factorymethod/Course.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/repository/CourseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/AI_Personalised_Learning_Project/src/main/java/repository/CourseRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,6 +42,9 @@
     &quot;accountId&quot;: &quot;93cea186-28d7-4085-a7a4-1f4f7297f09f&quot;
   }
 }</component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -61,52 +53,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;JUnit.All in AI_Personalised_Learning.executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.CourseFactoryTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CourseFactoryTest.testCourseCreation.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CourseServiceTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EnrollmentBuilderTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EnrollmentBuilderTest.testValidEnrollmentBuild.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.EnrollmentServiceTest.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.InMemoryCourseRepositoryTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.InMemoryEnrollmentRepositoryTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.InMemoryLearningProgressRepositoryTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.InMemoryRecommendationRepositoryTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.InMemoryReportRepositoryTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.InMemoryUserRepositoryTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LearningProgressTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.RecommendationTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ReportFactoryTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserFactoryTest.executor&quot;: &quot;Coverage&quot;,
-    &quot;JUnit.UserFactoryTest.testUserCreation.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserServiceTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.UserServiceTest.testUpdateProfile_SuccessfulUpdate.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
-    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Lithe/IdeaProjects/New folder/AI_Personalised_Learning&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Lithe/IdeaProjects/New folder/AI_Personalised_Learning/src/main/java/org/example/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.All in AI_Personalised_Learning.executor": "Coverage",
+    "JUnit.CourseFactoryTest.executor": "Run",
+    "JUnit.CourseFactoryTest.testCourseCreation.executor": "Run",
+    "JUnit.CourseServiceTest.executor": "Run",
+    "JUnit.EnrollmentBuilderTest.executor": "Run",
+    "JUnit.EnrollmentBuilderTest.testValidEnrollmentBuild.executor": "Run",
+    "JUnit.EnrollmentServiceTest.executor": "Debug",
+    "JUnit.InMemoryCourseRepositoryTest.executor": "Run",
+    "JUnit.InMemoryEnrollmentRepositoryTest.executor": "Run",
+    "JUnit.InMemoryLearningProgressRepositoryTest.executor": "Run",
+    "JUnit.InMemoryRecommendationRepositoryTest.executor": "Run",
+    "JUnit.InMemoryReportRepositoryTest.executor": "Run",
+    "JUnit.InMemoryUserRepositoryTest.executor": "Run",
+    "JUnit.LearningProgressTest.executor": "Run",
+    "JUnit.RecommendationTest.executor": "Run",
+    "JUnit.ReportFactoryTest.executor": "Run",
+    "JUnit.UserFactoryTest.executor": "Coverage",
+    "JUnit.UserFactoryTest.testUserCreation.executor": "Run",
+    "JUnit.UserServiceTest.executor": "Run",
+    "JUnit.UserServiceTest.testUpdateProfile_SuccessfulUpdate.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/Lithemba/OneDrive - Cape Peninsula University of Technology/Documents/IdeaProjects/AI-Personalized-Learning/AI_Personalised_Learning_Project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Lithe/IdeaProjects/New folder/AI_Personalised_Learning/src/main/java/org/example/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="api" />
@@ -124,7 +118,7 @@
       <recent name="services" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceTest.testUpdateProfile_SuccessfulUpdate">
+  <component name="RunManager" selected="JUnit.CourseServiceTest">
     <configuration name="CourseServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AI_Personalised_Learning" />
       <extension name="coverage">
@@ -219,6 +213,7 @@
       </set>
     </attachedChunks>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="3d7c0366-ea73-456e-ab43-5404329138c2" name="Changes" comment="" />
@@ -233,6 +228,8 @@
       <workItem from="1746224399474" duration="13904000" />
       <workItem from="1746313654966" duration="188000" />
       <workItem from="1746313876462" duration="1821000" />
+      <workItem from="1746358910497" duration="2279000" />
+      <workItem from="1746363223787" duration="178000" />
     </task>
     <task id="LOCAL-00001" summary="aaaded">
       <option name="closed" value="true" />
@@ -313,6 +310,20 @@
     <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="867f80d5-dea0-4d82-9bb3-68d9d2194200">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="OPEN_GENERIC_TABS">
       <map>
         <entry key="867f80d5-dea0-4d82-9bb3-68d9d2194200" value="TOOL_WINDOW" />
@@ -329,20 +340,6 @@
                 </option>
               </RecentGroup>
             </list>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="TAB_STATES">
-      <map>
-        <entry key="867f80d5-dea0-4d82-9bb3-68d9d2194200">
-          <value>
-            <State />
-          </value>
-        </entry>
-        <entry key="MAIN">
-          <value>
-            <State />
           </value>
         </entry>
       </map>
@@ -371,7 +368,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AI_Personalised_Learning$All_in_AI_Personalised_Learning.ic" NAME="All in AI_Personalised_Learning Coverage Results" MODIFIED="1745174299604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
     <SUITE FILE_PATH="coverage/AI_Personalised_Learning$UserFactoryTest.ic" NAME="UserFactoryTest Coverage Results" MODIFIED="1745173563849" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/AI_Personalised_Learning$All_in_AI_Personalised_Learning.ic" NAME="All in AI_Personalised_Learning Coverage Results" MODIFIED="1745174299604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>

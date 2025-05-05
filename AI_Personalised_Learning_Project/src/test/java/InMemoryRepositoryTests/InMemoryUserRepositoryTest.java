@@ -1,7 +1,7 @@
 package InMemoryRepositoryTests;
 
 import repository.inmemory.InMemoryUserRepository;
-import creational_patterns.abstractfactory.User;
+import aipersonalisedlearning.creational_patterns.abstractfactory.User;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

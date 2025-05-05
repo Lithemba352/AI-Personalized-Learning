@@ -1,9 +1,10 @@
 package services;
 
-import creational_patterns.factorymethod.Course;
+import aipersonalisedlearning.creational_patterns.factorymethod.Course;
+import aipersonalisedlearning.services.CourseService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import repository.CourseRepository;
+import aipersonalisedlearning.repository.CourseRepository;
 
 import java.util.List;
 

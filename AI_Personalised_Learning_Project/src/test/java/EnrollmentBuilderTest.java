@@ -1,4 +1,4 @@
-import creational_patterns.builder.Enrollment;
+import aipersonalisedlearning.creational_patterns.builder.Enrollment;
 import org.junit.jupiter.api.Test;
 
 import java.util.Date;

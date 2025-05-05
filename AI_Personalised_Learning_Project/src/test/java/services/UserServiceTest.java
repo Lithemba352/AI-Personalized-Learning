@@ -1,10 +1,11 @@
 package services;
 
-import creational_patterns.abstractfactory.User;
+import aipersonalisedlearning.creational_patterns.abstractfactory.User;
+import aipersonalisedlearning.services.UserService;
 import repository.inmemory.InMemoryUserRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import repository.UserRepository;
+import aipersonalisedlearning.repository.UserRepository;
 
 import static org.junit.jupiter.api.Assertions.*;
 

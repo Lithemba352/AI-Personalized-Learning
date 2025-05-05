@@ -1,7 +1,7 @@
 package InMemoryRepositoryTests;
 
-import repository.inmemory.InMemoryRecommendationRepository;
-import creational_patterns.prototype.Recommendation;
+import aipersonalisedlearning.repository.inmemory.InMemoryRecommendationRepository;
+import aipersonalisedlearning.creational_patterns.prototype.Recommendation;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

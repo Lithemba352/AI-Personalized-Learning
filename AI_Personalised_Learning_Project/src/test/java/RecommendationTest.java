@@ -1,4 +1,4 @@
-import creational_patterns.prototype.Recommendation;
+import aipersonalisedlearning.creational_patterns.prototype.Recommendation;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

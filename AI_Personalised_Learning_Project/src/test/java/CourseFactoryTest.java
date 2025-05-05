@@ -1,5 +1,5 @@
-import creational_patterns.factorymethod.Course;
-import creational_patterns.factorymethod.ConcreteCourseFactory;
+import aipersonalisedlearning.creational_patterns.factorymethod.Course;
+import aipersonalisedlearning.creational_patterns.factorymethod.ConcreteCourseFactory;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

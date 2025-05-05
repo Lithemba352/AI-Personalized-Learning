@@ -1,5 +1,5 @@
-import creational_patterns.abstractfactory.ConcreteUserFactory;
-import creational_patterns.abstractfactory.User;
+import aipersonalisedlearning.creational_patterns.abstractfactory.ConcreteUserFactory;
+import aipersonalisedlearning.creational_patterns.abstractfactory.User;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

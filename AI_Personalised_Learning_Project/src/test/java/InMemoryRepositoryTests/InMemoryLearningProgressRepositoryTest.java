@@ -1,7 +1,7 @@
 package InMemoryRepositoryTests;
 
-import repository.inmemory.InMemoryLearningProgressRepository;
-import creational_patterns.singleton.LearningProgress;
+import aipersonalisedlearning.repository.inmemory.InMemoryLearningProgressRepository;
+import aipersonalisedlearning.creational_patterns.singleton.LearningProgress;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

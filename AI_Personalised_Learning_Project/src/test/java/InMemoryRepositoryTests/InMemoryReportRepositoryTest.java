@@ -1,7 +1,7 @@
 package InMemoryRepositoryTests;
 
-import repository.inmemory.InMemoryReportRepository;
-import creational_patterns.simplefactory.Report;
+import aipersonalisedlearning.repository.inmemory.InMemoryReportRepository;
+import aipersonalisedlearning.creational_patterns.simplefactory.Report;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 

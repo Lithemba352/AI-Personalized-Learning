@@ -1,7 +1,7 @@
 package InMemoryRepositoryTests;
 
-import repository.inmemory.InMemoryEnrollmentRepository;
-import creational_patterns.builder.Enrollment;
+import aipersonalisedlearning.repository.inmemory.InMemoryEnrollmentRepository;
+import aipersonalisedlearning.creational_patterns.builder.Enrollment;
 import org.junit.jupiter.api.Test;
 import java.util.Date;
 import static org.junit.jupiter.api.Assertions.*;

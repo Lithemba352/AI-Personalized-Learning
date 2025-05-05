@@ -1,11 +1,12 @@
 package services;
 
-import creational_patterns.abstractfactory.User;
-import creational_patterns.builder.Enrollment;
+import aipersonalisedlearning.creational_patterns.abstractfactory.User;
+import aipersonalisedlearning.creational_patterns.builder.Enrollment;
+import aipersonalisedlearning.services.EnrollmentService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
-import repository.EnrollmentRepository;
-import repository.UserRepository;
+import aipersonalisedlearning.repository.EnrollmentRepository;
+import aipersonalisedlearning.repository.UserRepository;
 
 import java.util.ArrayList;
 import java.util.Date;

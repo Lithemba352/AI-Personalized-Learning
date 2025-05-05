@@ -1,5 +1,5 @@
-import creational_patterns.simplefactory.Report;
-import creational_patterns.simplefactory.ReportFactory;
+import aipersonalisedlearning.creational_patterns.simplefactory.Report;
+import aipersonalisedlearning.creational_patterns.simplefactory.ReportFactory;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
