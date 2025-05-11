@@ -29,14 +29,16 @@ jobs:
           key: ${{ runner.os }}-maven-${{ hashFiles('AI_Personalised_Learning_Project/pom.xml') }}
           restore-keys: |
             ${{ runner.os }}-maven-
-
-      - name: Build and test with Maven
-        working-directory: AI_Personalised_Learning_Project
-        run: mvn clean verify
-
+            
       - name: Upload test results
         if: failure() || success()
         uses: actions/upload-artifact@v3
         with:
           name: surefire-reports
           path: AI_Personalised_Learning_Project/target/surefire-reports/
+
+      - name: Build and test with Maven
+        working-directory: AI_Personalised_Learning_Project
+        run: mvn clean verify
+
+
