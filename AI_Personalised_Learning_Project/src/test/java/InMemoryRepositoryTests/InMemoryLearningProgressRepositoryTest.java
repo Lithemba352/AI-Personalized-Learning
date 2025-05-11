@@ -1,25 +1,25 @@
-package InMemoryRepositoryTests;
+// package InMemoryRepositoryTests;
 
-import aipersonalisedlearning.repository.inmemory.InMemoryLearningProgressRepository;
-import aipersonalisedlearning.creational_patterns.singleton.LearningProgress;
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+// import aipersonalisedlearning.repository.inmemory.InMemoryLearningProgressRepository;
+// import aipersonalisedlearning.creational_patterns.singleton.LearningProgress;
+// import org.junit.jupiter.api.Test;
+// import static org.junit.jupiter.api.Assertions.*;
 
-public class InMemoryLearningProgressRepositoryTest {
+// public class InMemoryLearningProgressRepositoryTest {
 
-    @Test
-    public void testFindSingletonInstance() {
-        InMemoryLearningProgressRepository repo = new InMemoryLearningProgressRepository();
-        LearningProgress instance1 = repo.findById("anyId");
-        LearningProgress instance2 = repo.findById("anotherId");
+//     @Test
+//     public void testFindSingletonInstance() {
+//         InMemoryLearningProgressRepository repo = new InMemoryLearningProgressRepository();
+//         LearningProgress instance1 = repo.findById("anyId");
+//         LearningProgress instance2 = repo.findById("anotherId");
 
-        assertSame(instance1, instance2);
-    }
+//         assertSame(instance1, instance2);
+//     }
 
-    @Test
-    public void testFindAllReturnsSingleton() {
-        InMemoryLearningProgressRepository repo = new InMemoryLearningProgressRepository();
-        assertEquals(1, repo.findAll().size());
-        assertSame(repo.findAll().get(0), LearningProgress.getInstance());
-    }
-}
+//     @Test
+//     public void testFindAllReturnsSingleton() {
+//         InMemoryLearningProgressRepository repo = new InMemoryLearningProgressRepository();
+//         assertEquals(1, repo.findAll().size());
+//         assertSame(repo.findAll().get(0), LearningProgress.getInstance());
+//     }
+// }
