@@ -2,16 +2,32 @@ name: CI
 
 on:
   push:
-    branches: [ main ]
+    branches: ['*']  # Trigger on push to any branch
   pull_request:
-    branches: [ main ]
+    branches: [ main ]  # Trigger on PRs to main
 
 jobs:
-  build:
+  build-and-test:
     runs-on: ubuntu-latest
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v3
 
-    - name: Run basic check
-      run: echo "CI check passed!"
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'  # Use appropriate Node.js version for your project
+
+    - name: Install dependencies
+      run: npm ci
+
+    - name: Run unit and integration tests
+      run: npm test  # Or a different command if you separate unit/integration tests
+
+    - name: Upload test results (if using coverage or results files)
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: test-results
+        path: path/to/test-results-folder  # Optional: replace with actual path
