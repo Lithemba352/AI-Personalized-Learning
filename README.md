@@ -75,5 +75,6 @@ When code is merged into the main branch:
 - [Domain_Modeling_and_Class_Reflection.md](Domain_Modeling_and_Class_Reflection.md)
 - [CHANGELOG.md](CHANGELOG.md)
 - [CoverageReport.md](CoverageReport.md)
-- [CD_Pipeline:_Release.md](CD_Pipeline:_Release)
+- [CD_Pipeline_Release _Artifact.md](CD_Pipeline_Release_Artifact.md)
 - [CI_PIPELINE_TEST_AUTOMATION.md](CI_PIPELINE_TEST_AUTOMATION.md)
+- [PR_Workflow.md](PR_Workflow.md)
