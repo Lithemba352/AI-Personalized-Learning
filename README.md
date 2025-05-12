@@ -25,6 +25,28 @@ In larger, enterprise systems, a full DI framework (e.g., Spring) would be more 
 ### Why use a generic a generic Repository interface
 I created a reusable interface for basic CRUD (create, read, update, delete) operations. This interface makes it easier to work with different data types and test without relying on a specific database.
 
+## Running Tests Locally
+cd AI_Personalised_Learning_Project
+mvn clean test
+- if you would like to view test coverage run :mvn jacoco:report
+
+## CI/CD Pipeline Overview
+The project uses GitHub Actions for Continuous Integration and Continuous Deployment:
+
+### Continuous Integration (CI)
+On every push or pull request, the workflow:
+- Checks out the repository code.
+- Sets up Java 17 using Temurin.
+- Caches Maven dependencies to speed up builds.
+- Runs mvn clean verify to compile, test, and verify the project.
+- Pull Requests are blocked if tests fail. This ensures only passing code can be merged into main.
+
+### Continuous Deployment (CD)
+When code is merged into the main branch:
+- The project is built using Maven to produce a .jar file.
+- The .jar file is uploaded as a release artifact using the upload-artifact GitHub Action.
+- This artifact can then be used for deployment or manual download.
+- This setup ensures reliable, test-verified builds are available on each main release.
 
 ## Links
 - [SPECIFICATION.md](./SPECIFICATION.md)
@@ -53,3 +75,5 @@ I created a reusable interface for basic CRUD (create, read, update, delete) ope
 - [Domain_Modeling_and_Class_Reflection.md](Domain_Modeling_and_Class_Reflection.md)
 - [CHANGELOG.md](CHANGELOG.md)
 - [CoverageReport.md](CoverageReport.md)
+- [CD_Pipeline:_Release.md](CD_Pipeline:_Release)
+- [CI_PIPELINE_TEST_AUTOMATION.md](CI_PIPELINE_TEST_AUTOMATION.md)
