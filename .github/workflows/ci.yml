@@ -1,4 +1,4 @@
-name: Java CI for AI Personalised Learning
+name: Java Maven CI/CD
 
 on:
   push:
@@ -7,6 +7,11 @@ on:
   pull_request:
     branches:
       - main
+
+  # CD trigger — when code is pushed to main
+  workflow_dispatch:  # Allows manual trigger from GitHub UI
+  release:
+    types: [created]
 
 jobs:
   build:
@@ -31,7 +36,31 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-maven-
 
-      - name: Build and run tests with Maven
-        run: |
-          cd AI_Personalised_Learning_Project
-          mvn clean verify
+      - name: Build and test with Maven
+        working-directory: AI_Personalised_Learning_Project
+        run: mvn clean verify
+
+  release-artifact:
+    if: github.ref == 'refs/heads/main'
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      - name: Build JAR
+        working-directory: AI_Personalised_Learning_Project
+        run: mvn clean package
+
+      - name: Upload Release Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ai-learning-app
+          path: AI_Personalised_Learning_Project/target/*.jar
