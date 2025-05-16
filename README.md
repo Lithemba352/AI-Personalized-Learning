@@ -48,6 +48,24 @@ When code is merged into the main branch:
 - This artifact can then be used for deployment or manual download.
 - This setup ensures reliable, test-verified builds are available on each main release.
 
+## Getting Started
+
+### Prerequisites
+- Java 17 (Temurin)
+- Maven
+- Git
+
+### Setup
+
+```bash
+git clone https://github.com/your-username/AI_Personalised_Learning_Project.git
+cd AI_Personalised_Learning_Project
+mvn clean install
+```
+## 🪪 License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more information.
+
 ## Links
 - [SPECIFICATION.md](./SPECIFICATION.md)
 - [ARCHITECTURE.md](./ARCHITECTURE.md)
